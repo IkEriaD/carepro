@@ -1,0 +1,52 @@
+.contact-us {
+    padding-top: 10rem;
+}
+
+.contact-us h1 {
+    color: #4B5563;
+    font-size: 25px;
+    margin-left: 40rem;
+}
+
+.contact-us-span {
+    color: #171717;
+}
+
+.contact-us-img img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.contact-us-text {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.office-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4B5563;
+    padding: 4rem 0 1rem 0;
+}
+
+.office-text p {
+    color: #4B5563;
+}
+
+.explore-btn {
+    border: 1px solid #1F2937;
+    text-align: center;
+    width: 10rem;
+    padding: 13px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.explore-btn:hover {
+    background: #171717;
+    color: #ffffff;
+}

@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  display: flex;
+  width: 77rem;
+  padding: 9rem;
+  margin-top: 10rem;
+  margin-left: 11rem;
+  background: #0582b4;
+  border-radius: 10px;
+}
+
+.homepage-text {
+  margin-left: -4rem;
+}
+
+.homepage-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53px;
+  color: #ffffff;
+  max-width: 30rem;
+}
+
+.homepage-text p {
+  color: #ffffff;
+  max-width: 30rem;
+}
+
+.homepage-btn {
+  color: #595959;
+  padding: 10px;
+  width: 14rem;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-img img {
+  width: 36rem;
+  height: 30rem;
+  position: absolute;
+  left: 42rem;
+  top: 19.25rem;
+}
+
+/* :::::::::::::::::HOMEPAGE ENDS HERE :::::::::::::::::::::::::::::  */
+
+
+.speciality-page {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.speciality-page h4 {
+  color: #1F2937;
+  font-weight: 600;
+}
+
+.speciality-page p {
+  color: #4B5563;
+  max-width: 35rem;
+  margin-left: 32rem;
+}
+
+.speciality-card {
+  display: flex;
+  margin-left: 22rem;
+}
+
+.speciality-card img {
+  width: 8rem;
+  height: 8rem;
+  margin: 0.6rem;
+}
+
+.speciality-text{
+  font-size: 12px;
+  font-weight: 600;
+  color: #4B5563;
+  cursor: pointer;
+  /* FOR HOVER  */
+  position: relative;
+  transition: top 0.5s ease;
+  top: 0;
+}
+
+.speciality-text:hover {
+  top: -10px;
+}
+
+{/* :::::::::::::::::::::::::::::SPECIALITY ENDS HERE::::::::::::::::::::::::::::::::::  */}
+
+
+.doctors-page {
+  text-align: center;
+  padding-top: 11rem;
+}
+
+.doctors-page h4 {
+  color: #1F2937;
+  font-weight: 600;
+}
+
+.doctors-page-p {
+  color: #4B5563;
+  max-width: 40rem;
+  margin-left: 32rem;
+  
+}
+
+.doctors-cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.3rem;
+  padding-top: 2rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  border: 1px solid #C9D8FF;
+  width: 234px;
+  height: 325px;
+  border-radius: 12px;
+  cursor: pointer;
+  /* FOR HOVER  */
+  position: relative;
+  transition: top 0.5s ease;
+  top: 0;
+
+}
+
+.card-link {
+  text-decoration: none;
+  color: #4B5563;
+}
+
+.doctors-img {
+  background: #EAEFFF;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card1 img {
+  width: 18rem;
+  height: 17rem;
+}
+
+.card2 img {
+  width: 18rem;
+  height: 17rem;
+}
+
+.card3 img {
+  width: 15rem;
+  height: 17rem;
+}
+
+.card4 img {
+  width: 16rem;
+  height: 17rem;
+}
+
+.card-text {
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.card-text h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-icon {
+  color: #0FBF00;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover  {
+  top: -11px;
+}
+
+.doctors-cards2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.3rem;
+  padding-top: 2rem;
+}
+
+.doctors-more {
+  background: #C9D8FF;
+  width: 10%;
+  padding: 10px;
+  margin: 2rem  0px 0px 45rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.doctors-link {
+  text-decoration: none;
+}
+
+{/* :::::::::::::::::::::::::::::DOCTORS ENDS HERE::::::::::::::::::::::::::::::::::  */}
+
+.appointment {
+  display: flex;
+  width: 77rem;
+  padding: 9rem;
+  margin-top: 10rem;
+  margin-left: 11rem;
+  background: #0582b4;
+  border-radius: 10px;
+}
+
+.appointment-text {
+  margin-left: -4rem;
+}
+
+.appointment-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53px;
+  color: #ffffff;
+  max-width: 35rem;
+}
+
+.appointment-btn {
+  color: #595959;
+  padding: 10px;
+  width: 14rem;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.appointment-img img {
+  width: 30rem;
+  height: 32.3rem;
+  position: absolute;
+  left: 53rem;
+  top: 158.5rem;
+}
+
+{/* :::::::::::::::::::::::::::::APPOINTMENT ENDS HERE::::::::::::::::::::::::::::::::::  */}
+
+footer {
+  display: flex;
+  column-gap: 8rem;
+  padding-top: 15rem;
+}
+
+.brand-text {
+  max-width: 32rem;
+  margin: 3rem 0px 0px 11.5rem ;
+  color: #4B5563;
+}
+
+.company-text h1 {
+  font-size: 23px;
+  color: #4B5563;
+}
+
+.company-text ul {
+  margin-top: 2.3rem;
+}
+
+.company-text ul li {
+  color: #4B5563;
+  padding: 5px;
+}
+
+.get-in-touch-text h1 {
+  font-size: 23px;
+  color: #4B5563;
+}
+
+.get-in-touch-text ul {
+  margin-top: 2.3rem;
+}
+
+.get-in-touch-text ul li {
+  color: #4B5563;
+  padding: 5px;
+}
+
+{/* :::::::::::::::::::::::::::::FOOTER ENDS HERE::::::::::::::::::::::::::::::::::  */}
+
+.copyright {
+  border-top: 1px solid #C9D8FF;
+  margin-top: 2.5rem;
+  text-align: center;
+  padding: 1rem;
+  width: 77rem;
+  margin-left: 11rem;
+}
+
+.copyright-span {
+  color: #4B5563;
+  font-weight: 600;
+}
